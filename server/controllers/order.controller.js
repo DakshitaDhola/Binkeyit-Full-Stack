@@ -128,6 +128,8 @@ const getOrderProductItems = async ({
         for (const item of lineItems.data) {
             const product = await Stripe.products.retrieve(item.price.product)
 
+            console.log("item",item)
+
             const paylod = {
                 userId: userId,
                 orderId: `ORD-${new mongoose.Types.ObjectId()}`,
