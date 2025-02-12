@@ -71,10 +71,10 @@ const CheckoutPage = () => {
       stripePromise.redirectToCheckout({ sessionId: responseData.id })
 
       if(fetchCartItem){
-        fetchCartItem
+        fetchCartItem()
       }
       if(fetchOrder){
-        fetchOrder
+        fetchOrder()
       }
     } catch (error) {
       AxiosToastError(error)
