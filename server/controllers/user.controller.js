@@ -8,7 +8,6 @@ import uploadImageCloudinary from '../utils/uploadImageCloudinary.js'
 import generatedOtp from '../utils/generatedOtp.js'
 import forgotPasswordTemplate from '../utils/forgotPasswordTemplate.js'
 import jwt from 'jsonwebtoken'
-import { data } from 'react-router-dom'
 
 export async function registerUserController(request,response){
     try {
