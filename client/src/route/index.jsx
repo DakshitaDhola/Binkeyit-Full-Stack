@@ -21,7 +21,7 @@ import ProductListPage from "../pages/ProductListPage";
 import ProducDisplayPage from "../pages/ProducDisplayPage";
 import CartMobile from "../pages/CartMobile";
 import CheckoutPage from "../pages/CheckoutPage";
-import Success from "../pages/success";
+import Success from "../pages/Success";
 import Cancel from "../pages/Cancel";
 
 const router = createBrowserRouter([
