@@ -1,4 +1,3 @@
-import { data } from "react-router-dom";
 import CartProductModel from "../models/cartproduct.model.js";
 import userModel from "../models/user.model.js";
 
